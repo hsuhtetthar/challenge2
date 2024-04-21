@@ -124,3 +124,10 @@ footer {
     margin: 0px;
     background-color: var(--one-color);
 }
+
+@media screen and (max-width: 490px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
