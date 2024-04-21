@@ -1,0 +1,126 @@
+:root {
+    --one-color: rgb(227, 160, 233);
+    --two-color: black;
+    --three-color: rgb(199, 100, 100);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    padding: 20px 35px;
+  background-color: var(--one-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--two-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header nav {
+    margin: 7px 0;
+  }
+
+  header a {
+    text-decoration: none;
+    color: var(--two-color);
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header nav ul li a:hover {
+    background: var(--three-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+  /* HEADER / NAVBAR STYLES END */
+
+  section h2 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--two-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--three-color);
+  }
+
+  .intro p {
+    line-height: 1.7;
+    color: var(--two-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+/* SECTION TITLE STYLES START */
+.section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color: var(--secondary-color);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    width: 50%;
+    background-color: var(--three-color);
+  }
+
+
+.section-title2 {
+    font-size: 20px;
+    border-bottom: 3px solid;
+    color: var(--three-color);
+    padding-bottom: 20px;
+    text-align:center;
+    margin: 0 auto 10px auto;
+
+  }
+
+  .section-title0{
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align:center;
+    margin: 0 auto 10px auto;
+    background-color: var(--three-color);
+  }
+
+  section {
+    background-color: var(--one-color);
+
+}
+footer {
+    text-align:center;
+    margin: 0px;
+    background-color: var(--one-color);
+}
